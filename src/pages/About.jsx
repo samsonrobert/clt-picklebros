@@ -51,6 +51,15 @@ const About = () => {
           </div>
         </section>
 
+        <section className="associations" style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '2rem' }}>
+          <h2 style={{ fontSize: '2.2rem', marginBottom: '2rem' }}>Associations</h2>
+          <div>
+            <a href="https://southernpickleball.com/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '1rem 2rem', backgroundColor: 'var(--bg-elevated)', border: '2px solid var(--p-green)', borderRadius: '8px', fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--text-main)', boxShadow: '0 4px 6px rgba(0,0,0,0.05)', textDecoration: 'none' }}>
+              Southern Pickleball
+            </a>
+          </div>
+        </section>
+
         <section className="contact-us" style={{ textAlign: 'center', marginTop: '2rem', padding: '3rem', backgroundColor: 'var(--bg-elevated)', borderRadius: '12px', border: '1px solid rgba(0,0,0,0.05)', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
           <h2>Contact Us</h2>
           <p style={{ fontSize: '1.2rem', marginTop: '1.5rem', color: 'var(--text-main)' }}>
