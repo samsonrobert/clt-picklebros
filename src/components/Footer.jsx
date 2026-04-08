@@ -1,5 +1,5 @@
 import './Footer.css';
-import { Trophy } from 'lucide-react';
+
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container footer-content">
         <div className="footer-brand">
           <div className="footer-logo">
-            <Trophy className="logo-icon" size={24} />
+            <img src="/CharlottePickleBros-Logo.jpg" alt="Charlotte Pickle Bros Logo" className="logo-image" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
             <span className="logo-title">Charlotte Pickle Bros</span>
           </div>
           <p className="footer-motto">Play for HIS Glory</p>
@@ -15,7 +15,7 @@ const Footer = () => {
             Bringing the community together through the amazing sport of Pickleball in Charlotte, NC.
           </p>
         </div>
-        
+
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
@@ -25,7 +25,7 @@ const Footer = () => {
             <li><a href="/about">About Us</a></li>
           </ul>
         </div>
-        
+
         <div className="footer-social">
           <h3>Follow Us</h3>
           <div className="social-icons">

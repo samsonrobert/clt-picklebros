@@ -33,17 +33,17 @@ const Home = () => {
       {/* Features Section */}
       <section className="features-section container">
         <div className="grid grid-cols-3">
-          <div className="feature-card">
+          <div className="feature-card" onClick={() => navigate('/tournaments')} style={{ cursor: 'pointer' }}>
             <div className="feature-icon"><Calendar size={32} /></div>
             <h3>Competitive Tournaments</h3>
             <p>Regularly scheduled local and regional tournaments for all skill levels.</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card" onClick={() => navigate('/coaching')} style={{ cursor: 'pointer' }}>
             <div className="feature-icon"><Star size={32} /></div>
             <h3>Expert Coaching</h3>
             <p>Elevate your game with clinics and private lessons from certified pros.</p>
           </div>
-          <div className="feature-card">
+          <div className="feature-card" onClick={() => navigate('/about')} style={{ cursor: 'pointer' }}>
             <div className="feature-icon"><Users size={32} /></div>
             <h3>Vibrant Community</h3>
             <p>Connect with players, find partners, and enjoy the social side of the sport.</p>

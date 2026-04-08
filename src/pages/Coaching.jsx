@@ -4,16 +4,16 @@ import './Coaching.css';
 const Coaching = () => {
   const coaches = [
     {
-      name: 'Coach Albert Johnson',
+      name: 'Coach Hanish',
       role: 'Head Professional',
-      bio: 'Former tennis pro turned pickleball addict. Specializes in strategy and mechanics.',
-      image: '/coach-johnson.jpg'
+      bio: 'Former tennis player turned pickleball addict. Specializes in strategy and mechanics.',
+      image: '/coach-hanish.JPG'
     },
     {
-      name: 'Coach Hanish',
+      name: 'Coach Albert Johnson',
       role: 'Beginner Clinic Lead',
       bio: 'Patient and encouraging. Perfect for those picking up a paddle for the first time.',
-      image: '/coach-hanish.JPG'
+      image: '/coach-johnson.jpg'
     }
   ];
 
