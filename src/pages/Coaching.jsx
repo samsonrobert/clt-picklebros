@@ -6,7 +6,7 @@ const Coaching = () => {
     {
       name: 'Coach Hanish',
       role: 'Head Professional',
-      bio: 'Former tennis player turned pickleball addict. Specializes in strategy and mechanics.',
+      bio: 'Experienced Pickleball professional. Specializes in strategy and mechanics.',
       image: '/coach-hanish.JPG'
     },
     {
