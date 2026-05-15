@@ -5,18 +5,9 @@ const Tournaments = () => {
   const upcomingTournaments = [
     {
       id: 1,
-      title: 'CPB Spring Tournament May 2026',
-      date: 'May 9, 2026',
-      location: 'Carolina Pickleball Club, Kannaplois,NC',
-      level: 'DUPR 3.5 - 3.99 and DUPR 4.0 and Above',
-      prize: 'Trophies & Gift cards',
-      registrationUrl: 'https://pickleballtournaments.com/tournaments/cpb-spring-pickleball-tournament'
-    },
-    {
-      id: 2,
       title: 'CPB 4th Annual Tournament',
-      date: 'September 12, 2026',
-      location: 'Carolina Pickleball Club, Kannaplois,NC',
+      date: 'August 22-23, 2026',
+      location: 'Peak Time Pickleball, Charlotte,NC',
       level: 'All Levels ( 3.0 - 4.5+)',
       prize: 'Trophies & Gift cards',
       registrationUrl: 'https://pickleballtournaments.com/tournaments/cpb-4th-annual-pickleball-tournament'
@@ -26,6 +17,15 @@ const Tournaments = () => {
   const pastTournaments = [
     {
       id: 1,
+      title: 'CPB Spring Tournament May 2026',
+      date: 'May 9, 2026',
+      location: 'Carolina Pickleball Club, Kannaplois,NC',
+      level: 'DUPR 3.5 - 3.99 and DUPR 4.0 and Above',
+      prize: 'Trophies & Gift cards',
+      registrationUrl: 'https://pickleballtournaments.com/tournaments/cpb-spring-pickleball-tournament'
+    },
+    {
+      id: 2,
       title: 'CPB - BCH Junoon Fundraiser',
       date: 'March 31st, 2026',
       location: 'Pickleball Charlotte',
@@ -76,7 +76,7 @@ const Tournaments = () => {
               <p><MapPin size={18} /> {tourney.location}</p>
               <p><span className="level-badge">{tourney.level}</span></p>
             </div>
-            <button className="btn-register" style={{ backgroundColor: 'var(--text-muted)', cursor: 'not-allowed' }} disabled>Completed</button>
+            <button className="btn-register" style={{ backgroundColor: 'var(--text-muted)' }} onClick={() => window.open(tourney.registrationUrl || 'https://pickleballtournaments.com/', '_blank', 'noopener,noreferrer')}>Completed</button>
           </div>
         ))}
       </div>
